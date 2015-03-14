@@ -3,9 +3,13 @@ onto a Raspberry Pi.
 
 # Compiling
 
-- Clone this repository
-- Issue a `git submodule init` then `git submodule update` - this pulls in the librfm12
-- Issue "make"
+```
+git clone https://github.com/felicitus/funksteckdose.git
+cd funksteckdose
+git submodule init
+git submodule update
+make
+```
 
 # Wiring up
 
