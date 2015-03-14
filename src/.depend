@@ -1,0 +1,10 @@
+funksteckdose.o: funksteckdose.c rfm12.h rfm12_config.h ../config.h \
+ ../../src/rfm12.h ../../src/include/rfm12_core.h \
+ ../../src/include/rfm12_extra.h ../../src/include/rfm12_livectrl.h \
+ funksteckdose.h
+rfm12.o: rfm12.c rfm12_config.h ../config.h ../../src/rfm12.c \
+ ../../src/include/rfm12_hw.h ../../src/include/rfm12_core.h \
+ ../../src/rfm12.h ../../src/include/rfm12_extra.h \
+ ../../src/include/rfm12_livectrl.h ../../src/include/rfm12_spi.c \
+ ../../src/include/rfm12_spi_linux.c ../../src/include/rfm12_livectrl.c \
+ ../../src/include/rfm12_extra.c

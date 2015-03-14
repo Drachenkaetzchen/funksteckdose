@@ -1,0 +1,3 @@
+[submodule "librfm12"]
+	path = librfm12
+	url = https://github.com/felicitus/librfm12.git
