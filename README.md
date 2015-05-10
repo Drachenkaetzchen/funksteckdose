@@ -50,3 +50,7 @@ An example configuration line for switching an outlet off and on looks like this
 ```
 Switch Lights_Bedlamp "Bed Lamp" (Lights) {exec="OFF:/usr/local/bin/funksteckdose 00000FFFF0 0F F0 off,ON:/usr/local/bin/funksteckdose 00000FFFF0 0F F0 on"}
 ```
+
+# Troubleshooting
+
+On newer kernels, loading the module alone does not work. Instead, you need to enable the device tree, see this link for further information: http://raspberrypi.stackexchange.com/questions/27073/firmware-3-18-x-breaks-i2c-spi-audio-lirc-1-wire-e-g-dev-i2c-1-no-such-f
